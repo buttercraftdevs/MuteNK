@@ -1,0 +1,21 @@
+name: SimpleMute
+version: ${pom.version}
+api: ["1.0.8"]
+author: xXSirGamesXx
+main: me.xxsirgamesxx.mute.Main
+description: Mute command for nukkit.
+website: buttercraft.ddns.net
+
+commands:
+  mute:
+    description: mute command
+    #usage: "/mute <player>"
+  unmute:
+    description: mute command
+    #usage: "/unmute <player>"
+    
+
+permissions:
+  mute.cmd:
+    description: "Allows user to mute or unmute players"
+    default: op
